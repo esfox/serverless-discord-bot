@@ -1,5 +1,5 @@
-const Fastify = require('fastify');
-const handler = require('./api/index.js');
+import Fastify from 'fastify';
+import handler from './api/index.js';
 
 Fastify()
   .post('/', handler)

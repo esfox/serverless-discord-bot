@@ -1,10 +1,11 @@
-const {
+import
+{
   InteractionResponseType,
   InteractionType,
   verifyKey,
-} = require('discord-interactions');
+} from 'discord-interactions';
 
-module.exports = async (request, response) =>
+export default async function handler(request, response)
 {
   if(request.method !== 'POST')
     return;
