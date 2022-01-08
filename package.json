@@ -12,6 +12,7 @@
     "discord-interactions": "^2.0.2"
   },
   "devDependencies": {
+    "@discordjs/builders": "^0.11.0",
     "@vercel/node": "^1.12.1",
     "dotenv": "^10.0.0",
     "fastify": "^3.25.3",
