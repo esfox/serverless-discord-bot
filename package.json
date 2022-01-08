@@ -2,7 +2,6 @@
   "name": "serverless-discord-bot-learn",
   "version": "0.0.1",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "node -r dotenv/config local",
     "register-commands": "node -r dotenv/config register-commands"
